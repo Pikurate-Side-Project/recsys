@@ -102,7 +102,6 @@ class KmeansModel:
         
         # analysis
         labels = self._model.predict(pik_matrix)
-        print(labels)
         link_num = len(labels)
         
         from collections import Counter
